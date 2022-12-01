@@ -1,3 +1,17 @@
-body {
-  background-color: beige;
+/***** RESET *****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: "Work Sans", sans-serif;
+}
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/***** HEADER *****/
