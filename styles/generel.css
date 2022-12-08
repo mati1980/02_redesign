@@ -14,4 +14,53 @@ video {
   display: block;
 }
 
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  max-width: 1900px;
+  margin-inline: 30px;
+}
+
 /***** HEADER *****/
+/** ikke mobile-first (endnu) så no worries hvis den ser grim ud **/
+header {
+  background-color: beige;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  letter-spacing: 0.2rem;
+  width: 1100px;
+  margin: 0 auto 0;
+}
+
+.logo_a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+nav ul li {
+  padding: 1rem;
+  text-transform: uppercase;
+}
