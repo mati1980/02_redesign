@@ -64,3 +64,31 @@ nav ul li {
   padding: 1rem;
   text-transform: uppercase;
 }
+
+/****** GENEREL *****/
+
+h1 {
+font-family: ;
+   font-size: ;
+  font-weight: bold;
+}
+
+h2 {
+  font-family:  
+  font-size: ;
+}
+
+h3 {
+  font-family:  
+  font-size: ;
+}
+
+p {
+  font-family: ;
+  font-size: ;
+}
+
+
+body {
+    background-color:rgb(254, 242, 228);
+}
