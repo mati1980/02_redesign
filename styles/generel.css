@@ -22,7 +22,7 @@ body {
 
 main {
   max-width: 1900px;
-  margin-inline: 30px;
+  margin-inline: 200px;
 }
 
 /***** HEADER *****/
@@ -39,8 +39,8 @@ nav {
   justify-content: space-between;
   padding: 2rem;
   letter-spacing: 0.2rem;
-  width: 1100px;
-  margin: 0 auto 0;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 .logo_a {
