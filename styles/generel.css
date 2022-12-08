@@ -68,27 +68,31 @@ nav ul li {
 /****** GENEREL *****/
 
 h1 {
-font-family: ;
-   font-size: ;
+  font-family: "Spartan MB", sans-serif;
   font-weight: bold;
+  font-size: 3rem;
 }
 
 h2 {
-  font-family:  
-  font-size: ;
+  font-family: "Spartan MB", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h3 {
-  font-family:  
-  font-size: ;
+  font-family: "Spartan MB", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 p {
-  font-family: ;
-  font-size: ;
+  font-family: "Spartan MB", sans-serif;
+  font-size: 1rem;
+  font-weight: ;
 }
-
 
 body {
-    background-color:rgb(254, 242, 228);
+  background-color: rgb(254, 242, 228);
 }
+
+/** FONTE **/
