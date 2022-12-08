@@ -37,10 +37,11 @@ nav {
   top: 0;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
   letter-spacing: 0.2rem;
-  margin-left: 170px;
-  margin-right: 170px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .logo_a {
