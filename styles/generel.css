@@ -62,7 +62,8 @@ nav ul li a {
 }
 
 header ul li {
-  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
   text-transform: uppercase;
 }
 
@@ -95,7 +96,7 @@ header ul {
 
 button {
   border: none;
-  background-color: ghostwhite;
+  background-color: rgb(217, 194, 202);
 }
 
 @media (min-width: 600px) {
@@ -107,7 +108,7 @@ button {
     font-size: 1.1rem;
     cursor: pointer;
 
-    display: none; /* Skjul knappen som standard */
+    display: none; /* Skjul knappen */
   }
 
   .main_menu ul {
