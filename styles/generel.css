@@ -22,7 +22,10 @@ body {
 
 main {
   max-width: 1900px;
-  margin-inline: 10px;
+  margin-inline: 20px;
+}
+
+html {
 }
 
 /***** HEADER *****/

@@ -5,6 +5,10 @@
   margin-bottom: 20px;
 }
 
+ul {
+  margin-top: 1rem;
+}
+
 li {
   text-decoration: none;
   list-style-type: none;
@@ -25,6 +29,10 @@ h3 {
 }
 
 @media (min-width: 600px) {
+  ul {
+    margin-top: 0;
+  }
+
   .grid_1-5 {
     display: grid;
     grid-template-columns: 1fr 5fr;
