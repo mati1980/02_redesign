@@ -25,9 +25,6 @@ main {
   margin-inline: 20px;
 }
 
-html {
-}
-
 /***** HEADER *****/
 /** lavet til mobile first med burgermenu **/
 header {
@@ -198,3 +195,43 @@ body {
 }
 
 /** FONTE **/
+
+/** FOOTER**/
+footer {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  text-align: right;
+  background-color: #f0e5d3e8;
+  margin-top: 100px;
+  font-size: 0.6rem;
+  color: black;
+}
+
+@media (min-width: 600px) {
+  footer {
+    padding: 1rem 4rem 1rem 4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  /** FOOTER **/
+  .grid_footer {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+
+  .footer2 {
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+
+  .footer3 {
+    grid-column: 3/4;
+    grid-row: 1/4;
+  }
+}
