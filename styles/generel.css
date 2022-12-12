@@ -34,12 +34,12 @@ li {
 /** FOOTER **/
 
 footer {
-  padding: 1rem 4rem 1rem 4rem;
+  padding: 3rem 2rem 3rem 2rem;
   text-align: right;
-  background-color: #f0e5d3e8;
-  margin-top: 100px;
+  background-color: #d5b498;
+  margin-top: 200px;
   font-size: 0.6rem;
-  color: rgb(128, 125, 125);
+  color: rgb(88, 88, 88);
 }
 
 .grid_footer {
