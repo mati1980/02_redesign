@@ -25,6 +25,12 @@ main {
   margin-inline: 20px;
 }
 
+li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
 /** FOOTER **/
 
 footer {
