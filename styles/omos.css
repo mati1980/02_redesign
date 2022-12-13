@@ -1,0 +1,27 @@
+img:hover {
+  opacity: 70%;
+}
+
+ul {
+  margin-top: 1rem;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 600px) {
+  ul {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
