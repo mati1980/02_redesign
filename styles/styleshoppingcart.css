@@ -145,7 +145,7 @@ body {
 }
 
 .right-bar a {
-  background-color: #aba99b;
+  background-color: #5231d9;
   color: #fff;
   text-decoration: none;
   display: block;
@@ -159,7 +159,7 @@ body {
   margin-right: 15px;
 }
 .right-bar a:hover {
-  background-color: #5b432b;
+  background-color: #aba99b;
 }
 
 .cart-search-header {
