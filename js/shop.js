@@ -1,24 +1,25 @@
 window.addEventListener("load", sidenVises);
 
-const mere = document.querySelector("#mere");
-const info = document.querySelector("#info");
-const udvid = document.querySelector("#udvid");
+const show = document.querySelector("#show");
+const img = document.querySelector("#img");
 
 function sidenVises() {
   console.log("sidenVises");
-  info.classList.add("hide");
+  img.classList.add("hide");
 }
 
-function visMere() {
-  console.log("visMere");
-  info.classList.toggle("hide");
+function showMore() {
+  console.log("showMore");
 
-  const infoHidden = info.classList.contains("hide");
+  img.classList.toggle("hide");
 
-  if (infoHidden) {
-    udvid.textContent = "+";
+  const imgHidden = img.classList.contains("hide");
+
+  if (imgHidden) {
+    show.textContent = "Show me more";
   } else {
-    udvid.textContent = "-";
+    show.textContent = "Show me less";
   }
 }
-mere.addEventListener("click", visMere);
+
+show.addEventListener("click", showMore);

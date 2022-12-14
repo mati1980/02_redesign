@@ -32,6 +32,10 @@ h3 {
   display: none;
 }
 
+#img {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: black;
