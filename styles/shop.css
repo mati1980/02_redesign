@@ -15,10 +15,6 @@ li {
   margin-bottom: 15px;
 }
 
-p {
-  padding: var(--space-p);
-}
-
 img:hover {
   opacity: 70%;
 }
@@ -30,6 +26,14 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (min-width: 600px) {
