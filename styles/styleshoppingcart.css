@@ -33,7 +33,7 @@ body {
   padding: 30px 0;
   text-align: center;
   text-transform: uppercase;
-  font-family: spartan_mbsemibold;
+  font-family: spartan MB;
 }
 .project {
   display: flex;
@@ -153,12 +153,18 @@ body {
   height: 55px;
   line-height: 40px;
   font-weight: 900;
+  font-family: "Spartan MB", sans-serif;
 }
 .right-bar i {
   margin-right: 15px;
 }
 .right-bar a:hover {
   background-color: #5b432b;
+}
+
+.cart-search-header {
+  font-size: 1.3rem;
+  color: #5b432b;
 }
 
 @media screen and (max-width: 700px) {
