@@ -14,6 +14,11 @@ video {
   display: block;
 }
 
+.cart-search-header {
+  font-size: 1.3rem;
+  color: #5b432b;
+}
+
 body {
   min-height: 100vh;
   display: grid;
@@ -31,12 +36,22 @@ li {
   margin-bottom: 15px;
 }
 
+html {
+  --primary-color: rgb(254, 242, 228);
+  --secondary-color: #d5b498;
+  --contrast-color: #5231d9;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
 /** FOOTER **/
 
 footer {
   padding: 3rem 2rem 3rem 2rem;
   text-align: right;
-  background-color: #d5b498;
+  background-color: var(--secondary-color);
   margin-top: 200px;
   font-size: 0.6rem;
   color: rgb(88, 88, 88);
@@ -252,10 +267,6 @@ h3 {
 p {
   font-family: "Spartan MB", sans-serif;
   font-size: 1rem;
-}
-
-body {
-  background-color: rgb(254, 242, 228);
 }
 
 /** FOOTER**/

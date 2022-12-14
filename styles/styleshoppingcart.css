@@ -22,7 +22,7 @@
 
 body {
   background: #f8f7f2;
-  font-family: "Spartan MB", sans-serif;
+  font-family: spartan_mbsemibold, sans-serif;
   color: #5b432b;
 }
 .wrapper {
@@ -33,7 +33,7 @@ body {
   padding: 30px 0;
   text-align: center;
   text-transform: uppercase;
-  font-family: spartan_mbsemibold;
+  font-family: spartan MB;
 }
 .project {
   display: flex;
@@ -69,6 +69,7 @@ body {
 .content h4 {
   font-size: 12px;
   margin-bottom: 55px;
+  font-family: "Spartan MB", sans-serif;
 }
 
 .name-prize p {
@@ -76,7 +77,7 @@ body {
   justify-content: space-between;
   font-size: 18px;
   margin-bottom: 30px;
-  font-family: spartan_mbsemibold;
+  font-family: "Spartan MB", sans-serif;
 }
 
 .btn-area {
@@ -128,7 +129,7 @@ body {
   justify-content: space-between;
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: spartan_mbsemibold;
+  font-family: "Spartan MB", sans-serif;
 }
 
 .right-bar i {
@@ -152,6 +153,7 @@ body {
   height: 55px;
   line-height: 40px;
   font-weight: 900;
+  font-family: "Spartan MB", sans-serif;
 }
 .right-bar i {
   margin-right: 15px;
@@ -159,6 +161,12 @@ body {
 .right-bar a:hover {
   background-color: #5b432b;
 }
+
+.cart-search-header {
+  font-size: 1.3rem;
+  color: #5b432b;
+}
+
 @media screen and (max-width: 700px) {
   .name-prize p {
     margin-bottom: 15px;
