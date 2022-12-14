@@ -147,11 +147,13 @@
 
 .h1_forside {
   font-weight: lighter;
+  text-align: center;
   padding: var(--space-h1);
 }
 
 .h2_forside {
   font-weight: lighter;
+  text-align: center;
   padding: var(--space-h2);
 }
 
@@ -192,13 +194,14 @@
     font-weight: lighter;
     text-align: center;
     font-size: 6rem;
+    padding: var(--space-h1);
   }
 
   h2 {
     font-weight: lighter;
     text-align: center;
     font-size: 4rem;
-    padding: 3rem 0 1rem 0;
+    padding: var(--space-h2);
   }
 
   .keywords_font {
