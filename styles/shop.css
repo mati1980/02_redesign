@@ -19,6 +19,12 @@ img:hover {
   opacity: 70%;
 }
 
+.h1_forside {
+  font-weight: lighter;
+  font-size: 3rem;
+  text-align: center;
+}
+
 h3 {
   text-align: center;
 }
