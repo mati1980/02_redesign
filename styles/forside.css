@@ -145,14 +145,12 @@
   font-size: 0.7rem;
 }
 
-h1 {
+.h1_forside {
   font-weight: lighter;
-  text-align: center;
 }
 
-h2 {
+.h2_forside {
   font-weight: lighter;
-  text-align: center;
   padding: 0.9rem 0 0.4rem 0;
 }
 
