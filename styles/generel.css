@@ -39,6 +39,12 @@ li {
 html {
   --primary-color: rgb(254, 242, 228);
   --secondary-color: #d5b498;
+  --contrast-color: #5231d9;
+  --header-color: rgb(238, 218, 196);
+
+  --space-h2: 2.9rem 0 0.4rem 0;
+  --space-h1: 0.9rem 0 0.4rem 0;
+  --space-p: 0.9rem 0 0.4rem 0;
 }
 
 body {
@@ -89,7 +95,7 @@ footer {
 /***** HEADER *****/
 /** lavet til mobile first med burgermenu **/
 header {
-  background-color: rgb(238, 218, 196);
+  background-color: var(--header-color);
 }
 
 header {
