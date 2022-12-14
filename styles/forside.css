@@ -147,11 +147,12 @@
 
 .h1_forside {
   font-weight: lighter;
+  padding: var(--space-h1);
 }
 
 .h2_forside {
   font-weight: lighter;
-  padding: 0.9rem 0 0.4rem 0;
+  padding: var(--space-h2);
 }
 
 @media (min-width: 900px) {
