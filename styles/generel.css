@@ -113,8 +113,8 @@ header {
 }
 
 .logo_a {
-  text-decoration: none;
-  color: black;
+  width: 3.5rem;
+  margin-bottom: -15px;
 }
 
 nav ul {
