@@ -39,6 +39,7 @@ li {
 html {
   --primary-color: rgb(254, 242, 228);
   --secondary-color: #d5b498;
+  --contrast-color: #5231d9;
 }
 
 body {
