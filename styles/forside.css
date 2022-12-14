@@ -133,7 +133,7 @@
 }
 
 .cta_newin {
-  background-color: #5231d9;
+  background-color: var(--contrast-color);
   padding: 0.2rem;
   color: #f0e1ca;
   text-decoration: none;
