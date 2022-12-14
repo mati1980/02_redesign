@@ -4,17 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burger menu-øvelse</title>
-    <link rel="stylesheet" href="css/demo.css">
-    <!-- Ret i nedenståendde stylesheet -->
+    <title>Kontakt</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles/generel.css">
 </head>
 
 <body>
     <header class="banner">
         <div class="logo">
-            <a href="#0">Logo</a>
+            <a class="logo_a" href="index.html">LOGO</a>
         </div>
+        <nav class="main_menu">
+            <button class="menu_button">Menu</button>
+            <ul>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="omos.html">About us</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li class="cart-search-header"><i class="fa fa-search" aria-hidden="true"></i>
+            </li>
+            <li class="cart-search-header"><a href="shoppingcart.html"><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i>
+                </a></li>
+        </ul>
     </header>
 
     <main>
@@ -58,7 +71,7 @@
                 <!-- Fjerner div for at boksen går helt ud til kanterne -->
                 <div class="form-felt">
                     <label>
-                        Besked (valgfri) <br>
+                        Besked <br>
                         <textarea name="besked" rows="5" class="boks"></textarea>
                     </label>
                 </div>
@@ -67,8 +80,38 @@
             </form>
         </section>
     </main>
+
+    <footer>
+        <div class="grid_footer">
+            <p class="footer_p">ISÆBELLA BUTIK <br>
+                Husumgade 7, 3th<br>
+                2200 København, Denmark<br>
+                Weekdays: 10:00 - 18:00<br>
+                Saturday: 10:00 - 17:00<br>
+                Sunday: Closed</p>
+            <p class="footer_p">
+                About ISÆBELLA<br>
+                Careers<br>
+                Contact<br>
+                Newsletter<br>
+                Customer service<br>
+                Returns<br>
+                Shipping information<br>
+                Terms and conditions<br>
+                Cookie policy<br>
+            </p>
+            <p class="footer_p">Follow us</p>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+
+        </div>
+    </footer>
     <script src="js/burger.js"></script>
     <script src="js/login.js"></script>
+    <script src="cart.js"></script>
+
+
 </body>
 
 </html>

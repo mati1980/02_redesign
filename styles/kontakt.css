@@ -1,0 +1,25 @@
+/* Dine styles her */
+form {
+  display: grid;
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.form-felt {
+  display: grid;
+}
+
+/*** gør så det rykker sig på næste linje ***/
+label,
+input,
+textarea,
+select,
+button {
+  display: block;
+}
+
+.boks {
+  width: 100%;
+}
